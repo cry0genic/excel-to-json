@@ -30,10 +30,14 @@ for row in islice(sheet.values, 1, sheet.max_row):
     Dict['nameOfRow1'] = row[0]
     Dict['nameOfRow2'] = row[1]
     Dict['nameOfRow3'] = row[2]
+    ''' add more rows if required'''
 
     listToHoldDict.append(Dict)
 
 j = json.dumps(listToHoldDict)
 
+'''
+name your json file
+'''
 with open('data.json', 'w') as f:
     f.write(j)
