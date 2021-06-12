@@ -1,4 +1,4 @@
-#Convert Excel File to JSON
+# Convert Excel File to JSON
 
 Clone the repository, and then follow the instructions inside of the python file ;)
 ### Running the code
